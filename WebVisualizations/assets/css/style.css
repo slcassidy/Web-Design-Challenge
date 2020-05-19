@@ -17,7 +17,14 @@ header{
 
 }
 
+.container{
+    background-color: #cccccc;
+}
+/*
+.comp_title{
+    text-align: center;    
 
+}*/
 
 #max-image{
     width: 300px;
@@ -58,12 +65,14 @@ li{
 .Topbox {
 
 /*    border: 2px;; */
-    width: 700px;
+    width: 600px;
      padding: 20px;
      background: #4aaaa5;
      color: white;
      font-family: 'Georgia', Times, "Times New Roman", serif;
      text-align: center;
+     font-weight: bold;
+
 }
 
 .box, h1{
@@ -73,7 +82,10 @@ li{
     border: 1px;
 }
 
+v_title {
 
+    text-align: center;
+  }
 
 footer{
     
