@@ -53,10 +53,10 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
                         <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Max Temperture</a>
-                          <a class="dropdown-item" href="#">Humidity</a>
-                          <a class="dropdown-item" href="#">Cloudiness</a>
-                          <a class="dropdown-item" href="#">Wind Speed</a>
+                          <a class="dropdown-item" href="#" id="Max">Max Temperture</a>
+                          <a class="dropdown-item" href="#" id="Hum">Humidity</a>
+                          <a class="dropdown-item" href="#" id="Clo">Cloudiness</a>
+                          <a class="dropdown-item" href="#" id="Win">Wind Speed</a>
                           <div class="dropdown-divider"></div>
                           <a class="dropdown-item" href="#">ALL</a>
                         </div>
@@ -89,7 +89,7 @@
  
 
       <!-- First of two columns -->
-      <div class="col-md-7 box">
+      <div class="col-md-7 box" id="Fig1">
         <h1>Max Temperatures</h1>
         <!--Line across the page-->
         <hr>
@@ -101,11 +101,47 @@
         </figure>
       </div>
 
+      <!-- First of two columns Hidden initially Humidity-->
+      <div class="col-md-7 box" id="Fig2">
+        <h1>Humidity</h1>
+        <!--Line across the page-->
+        <hr>
+        <figure class="figure">
+          <img src="assets/images/Fig2.png" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption center">The temperature becomes warmer as you approach the equater.
+            The southern hemisphere shows warmer then the northern hemisphere during this time of year.
+          </figcaption>
+        </figure>
+      </div>
 
+            <!-- First of two columns Hidden initially Cloudiness -->
+      <div class="col-md-7 box" id="Fig3">
+        <h1>Cloudiness</h1>
+        <!--Line across the page-->
+        <hr>
+        <figure class="figure">
+          <img src="assets/images/Fig3.png" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption center">The temperature becomes warmer as you approach the equater.
+            The southern hemisphere shows warmer then the northern hemisphere during this time of year.
+          </figcaption>
+        </figure>
+      </div>
 
+            <!-- First of two columns Hidden initially Cloudiness -->
+            <div class="col-md-7 box" id="Fig4">
+              <h1>Wind Speed</h1>
+              <!--Line across the page-->
+              <hr>
+              <figure class="figure">
+                <img src="assets/images/Fig4.png" class="figure-img img-fluid rounded" alt="...">
+                <figcaption class="figure-caption center">The temperature becomes warmer as you approach the equater.
+                  The southern hemisphere shows warmer then the northern hemisphere during this time of year.
+                </figcaption>
+              </figure>
+            </div>
 
       <!-- Second of two columns -->
-      <div class="col-md-5 box">
+      <div class="col-md-5 box " id="ALL">
         <h1>Visualizations</h1>
         <!--Line across the page-->
         <hr>
