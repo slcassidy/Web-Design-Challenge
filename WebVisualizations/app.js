@@ -1,6 +1,15 @@
-$("#ALL").show();   
+$("#ALL").show(); 
+
+
 $(document).ready(function(){
- 
+  $("#New").click(function(){
+    $("#Fig1").show();
+    $("#Fig2").hide();
+    $("#Fig3").hide();
+    $("#Fig4").hide();
+    $("#ALL").show();
+  });
+
     $("#Max").click(function(){
       $("#Fig1").show();
       $("#Fig2").hide();
