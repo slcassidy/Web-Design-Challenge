@@ -38,4 +38,8 @@ $(document).ready(function(){
         $("#Fig4").show();
         $("#ALL").show();
     });
+
+    $(function(){
+      $("#includedContent").load("cities_table.html"); 
+    });
   });
