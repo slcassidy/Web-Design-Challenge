@@ -34,8 +34,15 @@
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-
-
+  <script src="jquery.js"></script> 
+  <script> 
+  $(function(){
+    $("#includedContent").load("cities_table.html"); 
+  });
+  </script> 
+<body> 
+  <div id="includedContent"></div>
+</body> 
 
 </head>
 
@@ -91,7 +98,7 @@
         <h1>Data</h1>
         <!--Line across the page-->
         <hr>
-         <!-- row1 w/ pics-->
+         <!-- row1 w/ table of content-->
         <div class="row">
             <div id="includedContent"></div>
          
@@ -115,7 +122,7 @@
 
 
   <!-- JavaScript file utilizing Javascript -->
-  <script src="app.js"></script>
+  <script src="app.js" defer></script>
 
 
 </body>

@@ -1,7 +1,6 @@
-$("#ALL").show(); 
-
-
 $(document).ready(function(){
+  $("#ALL").show(); 
+
   $("#New").click(function(){
     $("#Fig1").show();
     $("#Fig2").hide();
