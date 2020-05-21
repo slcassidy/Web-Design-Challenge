@@ -41,42 +41,43 @@
 
 <body>
 
-    <header>
-        <nav class="navbar">
-            <div class="column1 col-md-1">
-            </div>
-            <div class="column2 col-md-8">
-                <a class="Topbox disabled"   href="#">Latitude</a>
-            </div>
-            <div class="column3 col-md-3">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#" id="Max">Max Temperture</a>
-                          <a class="dropdown-item" href="#" id="Hum">Humidity</a>
-                          <a class="dropdown-item" href="#" id="Clo">Cloudiness</a>
-                          <a class="dropdown-item" href="#" id="Win">Wind Speed</a>
+  <header>
+    <nav class="navbar">
+      <div class="column1 col-md-1">
+      </div>
+      <div class="column2 col-md-8">
+        <a class="Topbox disabled" href="#">Latitude</a>
+      </div>
+      <div class="column3 col-md-3">
+        <ul class="nav justify-content-end">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Plots</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#" id="Max">Max Temperture</a>
+              <a class="dropdown-item" href="#" id="Hum">Humidity</a>
+              <a class="dropdown-item" href="#" id="Clo">Cloudiness</a>
+              <a class="dropdown-item" href="#" id="Win">Wind Speed</a>
 
-                        </div>
-                      </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="comparision.html">Comparision</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="data.html">Data</a>
-                    </li>
-                    <li class="nav-item">
-                    </li>
-                  </ul>
             </div>
-        </nav>        
-    </header>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparision.html">Comparision</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+          <li class="nav-item">
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
   <!-- Creates the Overall Grid -->
   <div class="col-md-12">
 
-</div>  
+  </div>
   <div class="container coloring">
 
     <!-- First Row -->
@@ -85,7 +86,7 @@
     <!-- Second Row -->
 
     <div class="row">
- 
+
 
       <!-- First of two columns -->
       <div class="col-md-7 box" id="Fig1">
@@ -113,7 +114,7 @@
         </figure>
       </div>
 
-            <!-- First of two columns Hidden initially Cloudiness -->
+      <!-- First of two columns Hidden initially Cloudiness -->
       <div class="col-md-7 box" id="Fig3">
         <h1>Cloudiness</h1>
         <!--Line across the page-->
@@ -126,53 +127,60 @@
         </figure>
       </div>
 
-            <!-- First of two columns Hidden initially Cloudiness -->
-            <div class="col-md-7 box" id="Fig4">
-              <h1>Wind Speed</h1>
-              <!--Line across the page-->
-              <hr>
-              <figure class="figure">
-                <img src="assets/images/Fig4.png" class="figure-img img-fluid rounded" alt="...">
-                <figcaption class="figure-caption center">The temperature becomes warmer as you approach the equater.
-                  The southern hemisphere shows warmer then the northern hemisphere during this time of year.
-                </figcaption>
-              </figure>
-            </div>
+      <!-- First of two columns Hidden initially Cloudiness -->
+      <div class="col-md-7 box" id="Fig4">
+        <h1>Wind Speed</h1>
+        <!--Line across the page-->
+        <hr>
+        <figure class="figure">
+          <img src="assets/images/Fig4.png" class="figure-img img-fluid rounded" alt="...">
+          <figcaption class="figure-caption center">The temperature becomes warmer as you approach the equater.
+            The southern hemisphere shows warmer then the northern hemisphere during this time of year.
+          </figcaption>
+        </figure>
+      </div>
 
       <!-- Second of two columns -->
       <div class="col-md-5 box " id="ALL">
         <h1>Visualizations</h1>
         <!--Line across the page-->
         <hr>
-         <!-- row1 w/ pics-->
+        <!-- row1 w/ pics-->
         <div class="row">
-            <table class="table table-borderless">
-                <tbody>
-                    <tr>
-                        <td>            
-                            <img src="assets/images/Fig1.png" class="rounded float-left picsize img-thumbnail" alt="Fig1">
-                        </td>
-                        <td>            
-                            <img src="assets/images/Fig2.png" class="rounded float-left picsize img-thumbnail" alt="Fig1">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>            
-                            <img src="assets/images/Fig3.png" class="rounded float-left picsize img-thumbnail" alt="Fig1">
-                        </td>
-                        <td>            
-                            <img src="assets/images/Fig4.png" class="rounded float-left picsize img-thumbnail" alt="Fig1">
-                        </td>
-                    </tr>
-                </tbody>
+          <table class="table table-borderless">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="#" id="Max">
+                    <img src="assets/images/Fig1.png" class="rounded float-left picsize img-thumbnail" alt="Fig1">
+                  </a>
+                </td>
+                <td>
+                  <a href="#" id="Hum">
+                    <img src="assets/images/Fig2.png" class="rounded float-left picsize img-thumbnail" alt="Fig2">
+                  </a> </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#" id="Clo">
+                    <img src="assets/images/Fig3.png" class="rounded float-left picsize img-thumbnail" alt="Fig3">
+                    <a />
+                </td>
+                <td>
+                  <a href="#" id="Win1">
+                    <img src="assets/images/Fig4.png" class="rounded float-left picsize img-thumbnail" alt="Fig4">
+                  </a>
+                </td>
+              </tr>
+            </tbody>
 
-            </table>
-            
-       
+          </table>
+
+
         </div>
-    
-        
- </div>
+
+
+      </div>
 
 
     </div>
@@ -191,7 +199,7 @@
     </div>-->
 
     <footer>
-        <h5>Copyright&copy; Trilogy Education Services © 2019. All Rights Reserved.</h5>
+      <h5>Copyright&copy; Trilogy Education Services © 2019. All Rights Reserved.</h5>
     </footer>
 
   </div>

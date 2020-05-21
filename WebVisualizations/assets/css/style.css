@@ -101,3 +101,9 @@ footer{
     z-index: 4;
    
 }
+
+/* Here we define some styles that will ONLY be applied at screen sizes below 480 pixels */
+@media (max-width: 600px) {
+
+  }
+  
