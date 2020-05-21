@@ -1,4 +1,8 @@
 $("#ALL").show(); 
+$("#Fig1").hide();
+$("#Fig2").hide();
+$("#Fig3").hide();
+$("#Fig4").hide();
 $(document).ready(function(){
 
 
