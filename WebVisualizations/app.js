@@ -18,14 +18,33 @@ $(document).ready(function(){
  // }
 
  //Initial start of the page
- $("#comparision_view").hide();
- $("#Fig1").show();
- $("#Fig2").hide();
- $("#Fig3").hide();
- $("#Fig4").hide();
- $("#ALL").show();
-   
+ //$("#comparision_view").hide();
+ //$("#Fig1").show();
+ //$("#Fig2").hide();
+ //$("#Fig3").hide();
+ //$("#Fig4").hide();
+ //$("#ALL").show();
 
+ $("#comparision1").click(function(){
+    $(this).load("visualization.html");
+  $("#Fig1").hide();
+   $("#Fig2").hide();
+   $("#Fig3").hide();
+   $("#Fig4").hide();
+   $("#ALL").hide();
+   $("#comparision_view").show();
+   comparision();
+ });
+
+ //testing
+ var comparision = $("#comparision").click(function(){
+  $("#Fig1").hide();
+   $("#Fig2").hide();
+   $("#Fig3").hide();
+   $("#Fig4").hide();
+   $("#ALL").hide();
+   $("#comparision_view").show();
+ });
  // console.log(`testing {$htmlString}`)
  $("#comparision").click(function(){
    $("#Fig1").hide();
