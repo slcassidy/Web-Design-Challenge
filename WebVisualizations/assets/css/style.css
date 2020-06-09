@@ -103,6 +103,7 @@ footer{
 }
 
 /* Here we define some styles that will ONLY be applied at screen sizes below 480 pixels */
+/*bootstrap already does the media portion*/
 @media (max-width: 600px) {
 
   }

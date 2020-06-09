@@ -54,15 +54,15 @@
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
               aria-expanded="false">Plots</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#" id="Max">Max Temperture</a>
-              <a class="dropdown-item" href="#" id="Hum">Humidity</a>
-              <a class="dropdown-item" href="#" id="Clo">Cloudiness</a>
-              <a class="dropdown-item" href="#" id="Win">Wind Speed</a>
+              <a class="dropdown-item Max" href="#" id="Max">Max Temperture</a>
+              <a class="dropdown-item Hum" href="#" id="Hum">Humidity</a>
+              <a class="dropdown-item Clo" href="#" id="Clo">Cloudiness</a>
+              <a class="dropdown-item Win" href="#" id="Win">Wind Speed</a>
 
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="comparision.html">Comparision</a>
+            <a class="nav-link" href="#" id="comparision">Comparision</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="data.html">Data</a>
@@ -78,16 +78,10 @@
   <div class="col-md-12">
 
   </div>
-  <div class="container coloring">
+ <!-- <div class="container coloring"> -->
 
     <!-- First Row -->
-
-
-    <!-- Second Row -->
-
-    <div class="row">
-
-
+    <div class="row coloring">
       <!-- First of two columns -->
       <div class="col-md-7 box" id="Fig1">
         <h1>Max Temperatures</h1>
@@ -182,7 +176,62 @@
 
       </div>
 
+    <div class="col-md-3 coloring"></div>
 
+  </div>
+  <!--  </div>-->
+
+    <div class="row justify-content-md-center" id="comparision_view">
+      <div class="col-md-3 coloring"></div>
+      <!-- Second of two columns -->
+      <div class="col-md-6 box">
+        <h1>Comparision: Latitude vs. X</h1>
+        <!--Line across the page-->
+        <hr>
+        <!-- row1 w/ pics-->
+        <div class="row">
+          <table class="table table-borderless">
+            <tbody>
+              <tr>
+                <td>
+                  <p class="v_title">vs Max Temperture</p>
+                  <a  href="#" class="Max">
+                  <img src="assets/images/Fig1.png" class="rounded float-left picsize img-thumbnail" alt="Fig1">
+                  </a>
+                </td>
+                <td>
+                  <p class="v_title">vs Humidity</p>
+                  <a href="#" class="Hum">
+                  <img src="assets/images/Fig2.png"  class="rounded float-left picsize img-thumbnail" alt="Fig2">
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="v_title">vs Cloudiness</p>
+                  <a href="#" class="Clo">
+                  <img src="assets/images/Fig3.png"  class="rounded float-left picsize img-thumbnail" alt="Fig3">
+                <a/>
+            
+                </td>
+                <td>
+                  <p class="v_title">vs Wind Speed</p>
+                  <a href="#" class="Win">
+                  <img src="assets/images/Fig4.png"  class="rounded float-left picsize img-thumbnail" alt="Fig4">
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+  
+          </table>
+  
+  
+        </div>
+  
+  
+      </div>
+      <div class="col-md-3 coloring"></div>
+  
     </div>
 
     <!-- First Row 
