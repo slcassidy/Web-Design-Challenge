@@ -18,15 +18,15 @@ $(document).ready(function(){
  // }
 
  //Initial start of the page
- //$("#comparision_view").hide();
- //$("#Fig1").show();
- //$("#Fig2").hide();
- //$("#Fig3").hide();
- //$("#Fig4").hide();
- //$("#ALL").show();
+//  $("#comparision_view").hide();
+//  $("#Fig1").show();
+//  $("#Fig2").hide();
+//  $("#Fig3").hide();
+//  $("#Fig4").hide();
+//  $("#ALL").show();
 
  $("#comparision1").click(function(){
-    $(this).load("visualization.html");
+    // $(this).load("visualization.html");
   $("#Fig1").hide();
    $("#Fig2").hide();
    $("#Fig3").hide();
